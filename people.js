@@ -5,14 +5,11 @@ const hobbies = require("./hobbies")
 
 //creo una funzione senza parametri ma con le funzioni che ho importato
 
-function person(){
-    const fullNames = fullName("Pasquale", "Di Maro");
-    const hobby = hobbies("Giocare ai videogiochi", "Leggere Manga", "Ascoltare musica");
-    return{
-        fullNames, hobby
-    };
+const people = {
+    fullNames: fullName( "Pasquale", "Di Maro"),
+    hobby: hobbies("Giocare ai Videogiochi", "Leggere Manga", "Ascoltare musica")
+
 }
 
 // mostro log
-const people = person()
 console.log(people);
