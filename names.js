@@ -2,7 +2,8 @@
 
 function fullName(firstName, lastName) {
     return{
-        firstName, lastName
+        firstName: firstName, 
+        lastName: lastName
     };
     
 }

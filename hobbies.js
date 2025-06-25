@@ -1,9 +1,9 @@
 // scrivo la funzione con tre parametri
 
 function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
-    return{
+    return[
         hobbyOne, hobbyTwo, hobbyThree
-    };
+    ];
     
 }
 
