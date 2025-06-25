@@ -1,6 +1,6 @@
 // creo la funzione che da due parametri nome e cognome
 
-function fullname(firstName, lastName) {
+function fullName(firstName, lastName) {
     return{
         firstName, lastName
     };
@@ -9,4 +9,4 @@ function fullname(firstName, lastName) {
 
 // esporto la funzione
 
-module.exports = fullname;
+module.exports = fullName;
